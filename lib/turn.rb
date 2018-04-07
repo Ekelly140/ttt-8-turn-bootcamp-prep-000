@@ -7,6 +7,7 @@ def display_board(board)
   
 end
 
+<<<<<<< HEAD
 def input_to_index(index)
   index = index.to_i - 1
 end 
@@ -36,4 +37,10 @@ def turn(board)
   move(board,index)
   display_board(board)
 
+=======
+def turn(board)
+  puts "Please enter 1-9:"
+  position = gets.strip
+  until 
+>>>>>>> 57d4b7b49713658fb139727cbdbe478dec408b91
 end
